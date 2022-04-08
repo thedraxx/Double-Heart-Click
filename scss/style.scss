@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+// colors
+
+$white: rgb(255, 255, 255);
+$black: #000000;
+$orangered: #FF8080;
+$orange: rgb(255, 93, 93);
+$hoverviolet:#a602d4;
+$celeste: #a1e9ff;
+$lightorange: #fdedd5;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  background-image: $white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+
+  h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    background-color: $orangered;
+  }
+
+  .loveMe {
+    height: 440px;
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.9);
+
+  }
+}
